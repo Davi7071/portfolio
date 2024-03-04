@@ -267,8 +267,10 @@ nav a:hover {
 .technology-icons i:hover + .tooltip {
   opacity: 1;
 }
+
 h2 {
-  font-size: 3.5m: 10%;
+  font-size: 3.5rem;
+  margin-bottom: 10%;
 }
 
 
