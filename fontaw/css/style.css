@@ -176,6 +176,11 @@ nav a:hover {
   color: #ffffff;
 }
 
+.transicaop1p2{
+  height: 75px;
+  width: 100%;
+  background: linear-gradient(to bottom, #DFD6E2, #CCCCCC);
+}
 
   .projeto2 {
     background-color: #CCCCCC;
@@ -230,8 +235,63 @@ nav a:hover {
 .transicao2{
   height: 200px;
   width: 100%;
-  background: linear-gradient(to bottom, #CCCCCC, #7D5B8A);
+  background: linear-gradient(to bottom, #CCCCCC, #A594AB);
 }
+
+
+
+.formacao {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.coluna {
+  flex: 1;
+}
+
+.coluna-esquerda {
+  padding-right: 20px;
+}
+
+.coluna-direita {
+  padding-left: 20px;
+}
+
+section.formacao > h2, h3 {
+  margin-top: 0;
+}
+
+section.formacao> h1{
+  align-items: center;
+  text-align: center;
+  color: #F2DF50;
+  
+}
+
+.escola h3, .faculdade h3, .concluidos h3, .cursando h3 {
+  margin-top: 20px;
+  color: #F2DF50;
+}
+
+.escola p, .faculdade p, .concluidos li, .cursando li {
+  margin-bottom: 5px;
+}
+
+.transicao21 {
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(to bottom, #A594AB, #7D5B8A);
+}
+
+.bgf{background-color: #A594AB;}
+
+
+
+
+
+
 .tecnologias {
   text-align: center;
 }
@@ -267,8 +327,7 @@ nav a:hover {
 .technology-icons i:hover + .tooltip {
   opacity: 1;
 }
-
-h2 {
+section.tecnologias h2 {
   font-size: 3.5rem;
   margin-bottom: 10%;
 }
