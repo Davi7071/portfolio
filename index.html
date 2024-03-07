@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfólio do Programador</title>
+	
+	<meta charset="utf-8">
+	<meta name="keywords" content="palavra-chave",>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="fontaw/css/all.css">
+	<link rel="stylesheet" type="text/css" href="fontaw/css/style.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+		<nav>
+			<a href="#projetos">Projetos</a>
+			<a href="#contato">Contato</a>
+		</nav>
+	</body>
+	<div class="center">
+		
+		<section class="introducao"><!--Parte inicial do site, primeira tela-->
+			
+			<div class="apresentacao">
+				<h3>⠀Olá, eu sou o Davi
+					<a target="_blank" href="cv.pdf" class="link-estilizado">
+						<i class="fa-solid fa-file-lines fa-2x" style="color: #f2df50;"></i>
+					</a>
+					<a target="_blank" href="https://github.com/Davi7071" class="link-estilizado">
+						<i class="fa-brands fa-github fa-2x" style="color: #f2df50;"></i>
+					</a>
+				<!--	<a href="seu_link_aqui" class="link-estilizado">
+						<i class="fa-brands fa-linkedin fa-2x" style="color: #f2df50;"></i>
+					</a>-->
+				</h3>
+
+				<h1>FRONT-END<br>
+					DEVELOPER</h1>
+				<h4>Tenho 18 anos e quero me tornar<br>
+					  um desenvolvedor profissional</h4>
+			</div>
+		</div>
+		<div class="transicao"></div>
+
+		<section id="projetos" class="port">
+			<div class="projeto1">
+			</br></br></br></br></br></br>
+				<div class="center">
+					<img src="imagens/pj1img.png">
+				</div>
+				  <div class="desc">
+					  <h1>Painel de Controle para um site</h1>
+					  
+					  <p>
+						Site com um painel de controle para gerenciar informações sobre a empresa ou projeto, permitindo a edição do conteúdo 'Sobre', o cadastro de membros da equipe, e a visualização da lista de membros.</p>
+						
+
+						<div class="tecnologias">
+						<div class="tecnologias">
+							<img style="width: 80px; height: auto;" src="imagens/html.png" onclick="mudarTexto('HTML', 'O HTML neste projeto cria a estrutura da página web, incluindo uma barra de navegação, cabeçalho, trilha de navegação e seções principais para editar informações sobre a empresa (Sobre), cadastrar membros da equipe e visualizar a lista de membros. Formulários são utilizados para interação do usuário, e o código incorpora elementos do framework Bootstrap para melhorar o design e a funcionalidade da interface.')">
+							<img style="width: 118px;" src="imagens/CSS.png" onclick="mudarTexto('CSS', 'O CSS neste projeto define estilos visuais para elementos HTML, proporcionando uma aparência atraente e consistente. Ele abrange a formatação de elementos como o corpo da página, barra de navegação, cabeçalho, trilha de navegação e seções principais. O uso de classes e seletores específicos personaliza a aparência dos botões, cores e garante uma experiência responsiva em diferentes tamanhos de tela. O framework Bootstrap é empregado para melhorar o design e a usabilidade..')">
+							<img style="width: 80px;" src="imagens/JS.png" onclick="mudarTexto('JavaScript', 'O JavaScript neste projeto adiciona interatividade à página, facilitando a navegação e a manipulação de dados sem a necessidade de recarregar a página. Utiliza o jQuery para aplicar classes e efeitos de rolagem suave nos links do menu, além de empregar AJAX para permitir a deleção assíncrona de membros da equipe.')">					
+							<img style="width: 200px;" src="imagens/PHP.png" onclick="mudarTexto('PHP', 'O PHP neste projeto desempenha um papel crucial no gerenciamento de dados do lado do servidor. Ele estabelece conexão com o banco de dados MySQL, realiza consultas para obter informações sobre a seção (Sobre) e manipula formulários submetidos pelos usuários. O PHP processa a edição do conteúdo (Sobre), o cadastro de membros da equipe e a deleção assíncrona de membros, executando operações correspondentes no banco de dados. Além disso, gera dinamicamente o conteúdo HTML com base nas consultas e ações do usuário.')">
+							<img style="width: 100px;" src="imagens/mysql.png" onclick="mudarTexto('SQL', ' As consultas SQL são empregadas no PHP para realizar operações no banco de dados, como selecionar informações da tabela para exibir o conteúdo da seção (Sobre). Além disso, são utilizadas para inserir dados na tabela ao editar o conteúdo, e na tabela tb_equipe ao cadastrar membros da equipe. A SQL também é empregada na consulta de membros da equipe para exibição dinâmica na página, e na deleção assíncrona de membros.')">
+							<a target="_blank" href="https://github.com/Davi7071/Site-e-painel-de-controle"><button class="sobreoprojetobtn" onclick="mudarTexto('Painel de Controle para um site', 'Site com um painel de controle para gerenciar informações sobre a empresa ou projeto, permitindo a edição do conteúdo, o cadastro de membros da equipe, e a visualização da lista de membros.')">Ver mais</button></a>
+						</br></br></br></br></br></br>
+						</div>
+				  </div>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+
+		<div class="transicaop1p2"></div>
+		<!--Projeto2-->
+		
+
+		<div class="projeto2">
+			<div class="center">
+				<img src="imagens/pj2img.png">
+			</div>  
+			<div class="center">
+			  <div class="desc2">
+				  <h1>Sistema de reservas</h1>
+				  
+				  <p>
+					O sistema permite que os usuários façam reservas escolhendo um horário disponível. Além disso, há uma seção que mostra as reservas atuais, permitindo a exclusão de agendamentos. O banco de dados utilizado é o MySQL, e a interação com o banco é feita usando PDO (PHP Data Objects).</p>
+					
+
+					<div class="tecnologias">
+					<div class="tecnologias">
+						<img style="width: 80px; height: auto;" src="imagens/html.png" onclick="mudarTexto2('HTML', 'O HTML neste projeto é responsável pela estrutura básica da página web e pela criação de formulários para permitir que os usuários realizem reservas e visualizem as reservas atuais. Ele inclui seções para cabeçalho, escolha de horário, reserva e visualização de reservas atuais. O HTML também integra folhas de estilo CSS e links para fontes do Google Fonts para melhorar o layout e o estilo da página.')">
+						<img style="width: 118px;" src="imagens/CSS.png" onclick="mudarTexto2('CSS', 'O CSS neste projeto é utilizado para estilizar a apresentação visual da página web. Ele define propriedades de estilo, como cores, fontes, tamanhos de texto e layout, para garantir uma aparência atraente e coerente. O CSS é aplicado principalmente aos elementos HTML, contribuindo para a organização e a estética da interface do usuário, melhorando a experiência de navegação e interação com o sistema de reserva.')">
+						<img style="width: 200px;" src="imagens/PHP.png" onclick="mudarTexto2('PHP', 'O PHP desempenha um papel central no projeto, executando diversas tarefas cruciais. Inicialmente, estabelece uma conexão com um banco de dados MySQL por meio da extensão PDO. Quando os usuários submetem o formulário de reserva, o PHP processa os dados, realizando validações, como a verificação de datas e horas válidas, e insere reservas bem-sucedidas na tabela do banco de dados. Além disso, possibilita a visualização das reservas existentes, permitindo a exclusão de registros específicos com base nos parâmetros fornecidos na URL. Adicionalmente, configura o fuso horário para America/Sao_Paul, assegurando consistência nas operações relacionadas a data e hora. Em síntese, o PHP desempenha um papel integral na manipulação da lógica de negócios do sistema de reservas, facilitando a interação entre a interface web e o banco de dados, além de garantir uma experiência coesa aos usuários.')">
+						<img style="width: 100px;" src="imagens/mysql.png" onclick="mudarTexto2('MySQL', 'Executa consultas para selecionar, inserir e excluir dados da tabela tb_agendados, que é utilizada para armazenar informações de reservas. Por exemplo, ao excluir um agendamento, ele executa uma instrução SQL de exclusão. Ao agendar um novo horário, insere os dados na tabela correspondente. Além disso, verifica a disponibilidade de horários para evitar conflitos, consultando o banco de dados para verificar se já existe um agendamento para o horário desejado. Em resumo, o SQL neste código é responsável pela manipulação eficiente dos dados do sistema de reserva implementado em PHP.')">
+						<a target="_blank" href="https://github.com/Davi7071/Sistema-de-reservas"><button class="sobreoprojetobtn2" onclick="mudarTexto2('Sistema de reservas','O sistema permite que os usuários façam reservas escolhendo um horário disponível. Além disso, há uma seção que mostra as reservas atuais, permitindo a exclusão de agendamentos. O banco de dados utilizado é o MySQL, e a interação com o banco é feita usando PDO (PHP Data Objects).')">Ver mais</button></a>
+					</br></br></br></br></br></br></br>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+		</div>
+	</div>
+		</section>
+		</section>
+	</div>
+	<div class="transicao2"></div>	
+	<div class="bgf">
+	<section class="formacao">
+        <div class="coluna coluna-esquerda">
+            <h1>Formação</h1>
+			<br>
+            <div class="escola">
+                <h3>Escola Politécnica de Minas Gerais - POLIMIG</h3>
+                <p>Ensino médio: Técnico em Informática</p>
+                <p>2020 - 2022</p>
+            </div>
+            <div class="faculdade">
+                <h3>Faculdade</h3>
+				
+                <p>Cursando Ciências da Computação - Estácio </p> 
+				<p>2024 - xxxx</p>
+            </div>
+        </div>
+        <div class="coluna coluna-direita">
+            <h2>Cursos</h2>
+			<br>
+            <div class="concluidos">
+                <h3>Concluídos</h3>
+                <ul>
+                    <li>Curso PHP JEDAI - Danki code (27 horas)</li>
+                    <li>Curso Web Design Express - Danki code (13 horas)</li>
+                </ul>
+            </div>
+            <div class="cursando">
+                <h3>Cursando</h3>
+                <ul>
+                    <li>Curso Webmaster Front-End Completo - Danki code</li>
+                    <li>Curso Desenvolvimento Web Completo - Danki code</li>
+                </ul>
+            </div>
+        </div>
+	</div>
+    </section>
+
+	<div class="transicao21"></div>	
+
+	
+<div style="background-color: #7D5B8A;" class="center">
+	<section class="tecnologias">
+		<br><br><br><br>	
+        <h2>Tecnologias</h2>
+		<div class="technology-icons">
+            <i class="fab fa-html5" title="HTML5"></i>
+            <span class="tooltip">HTML5</span>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <span class="tooltip">CSS3</span>
+            <i class="fab fa-js-square" title="JavaScript"></i>
+            <span class="tooltip">JavaScript</span>
+            <i class="fab fa-bootstrap" title="Bootstrap"></i>
+            <span class="tooltip">Bootstrap</span>
+            <i class="fab fa-php" title="PHP"></i>
+            <span class="tooltip">PHP</span>
+            <i class="fas fa-database" title="MySQL"></i>
+            <span class="tooltip">MySQL</span>
+            <i class="fab fa-windows" title="Windows"></i>
+            <span class="tooltip">Windows</span>
+            <i class="fab fa-wordpress" title="WordPress"></i>
+            <span class="tooltip">WordPress</span>
+			<br><br>
+		</div>
+    </div>
+    </section>
+	<div class="transicao3"></div>	
+
+
+	
+	
+	<section id="contato" class="contato">
+		<div class="email" onclick="copyText('davifalabela@gmail.com')">
+		  <h1>davifalabela@gmail.com</h1>
+		  
+		</div><br><h4 style="color: #5f3e6b;">/*Clique para copiar*/</h4><br>
+		<div class="cel" onclick="copyText('+55 (31) 9 99514122')">
+		  <h1>+55 (31) 9 99514122</h1>
+		</div>
+		<br><br><br><br>
+	  </section>
+	</div>
+	<script>
+	
+    function mudarTexto(tecnologia, descricao) {
+        const descElement = document.querySelector('.desc');
+        const h1Element = document.querySelector('.desc h1');
+        const pElement = document.querySelector('.desc p');
+
+        descElement.style.opacity = '0';
+
+        setTimeout(() => {
+            h1Element.innerText = tecnologia;
+            pElement.innerText = descricao;
+            descElement.style.opacity = '1';
+        }, 300);
+    }
+
+	function mudarTexto2(tecnologia, descricao) {
+        const descElement = document.querySelector('.desc2');
+        const h1Element = document.querySelector('.desc2 h1');
+        const pElement = document.querySelector('.desc2 p');
+
+        descElement.style.opacity = '0';
+
+        setTimeout(() => {
+            h1Element.innerText = tecnologia;
+            pElement.innerText = descricao;
+            descElement.style.opacity = '1';
+        }, 300);
+    }
+
+
+function copyText(text) {
+  var inputElement = document.createElement('input');
+  inputElement.value = text;
+  document.body.appendChild(inputElement);
+  inputElement.select();
+  document.execCommand('copy');
+  document.body.removeChild(inputElement);
+}
+
+
+
+	</script>
+
+	
+</body>
+</html>
